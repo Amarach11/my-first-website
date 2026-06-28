@@ -1,0 +1,18 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.mother {
+    display:flex;
+    background-color: black;
+}
+
+
+.child {
+  background-color: purple;
+  color: white;
+  padding: 16px;
+  margin: 4px;
+}

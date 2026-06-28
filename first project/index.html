@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>First Project</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: hsl(48, 88%, 63%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height:100vh;
+        }
+
+        .card {
+            background-color:#FFFFFF;
+            border-radius: 24px;
+            width: 384px;
+            padding: 18px;
+            box-shadow: 5px 5px #000000;
+            border: 1px solid #000000;
+        }
+
+        .card-image {
+             border-radius:18px;
+              width:100%;
+        }
+
+        .badge {
+            background-color:hsl(48, 88%, 63%) ;
+            border-radius: 5px;
+            padding: 4px 12px;
+            display: inline-block;
+        }
+        .date {
+            color:hsl(0, 0%, 7%);
+
+        }
+        
+        .description {
+             color:hsl(0, 0%, 42%);
+
+        }
+
+        .avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%; 
+        }      
+
+            .author{
+                 display:flex;
+                -items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img class="card-image" src="asset/images/illustration-article.svg" alt="">
+       <p class="badge"><b>Learning</b></p>
+       <p class="date">Published 21 Dec 2023</p>
+       <h1 class="heading"> HTML & CSS foundations</h1>
+       <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <div class="author">
+            <img class="avatar" src="asset/images/image-avatar.jpeg" alt="">  <p class="author-name"> Ojini Amarachi</p>
+        </div>
+    </div>
+</body>
+</html>
