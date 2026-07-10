@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+
+        <style>
+            body {
+                background-color: #1a1a2e;
+                color:white;
+                font-family: Arial;
+                text-align: center;
+                padding: 50px;
+            }
+            input {
+                padding: 10px;
+                margin: 10px;
+                font-size: 18px;
+                width: 150px;
+                border-radius: 5px;
+                border: none
+            }
+            button {
+                background-color: gold;
+                color: black;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                margin: 10px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            #result {
+                font-size: 30px;
+                margin-top: 20px;
+                color: gold;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <input id="num1" type="number" placeholder="Enter first number">
+        <input id="num2" type="number" placeholder="Enter second number">
+        
+        <button id="add">Addition</button>
+        <button id="subtract">Subtraction</button>
+        <button id="multiply">Multiplication</button>
+        <button id="divide">Division</button>
+
+         <p id="result">Result: </p>
+        <script src="app.js"></script>
+    </body>
+</html>
